@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import NavBar from './components/NavBar/index';
-import Welcome from './components/Welcome/index';
 
+import Welcome from './components/Welcome/index';
+import Counter from './components/Counter/index';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <NavBar/>
-        <Welcome name="Juli" />;
+        <Welcome name="User" />
       </header>
+      <Counter/>
     </div>
   );
 }
